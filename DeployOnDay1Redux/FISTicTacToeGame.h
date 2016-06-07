@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface FISTicTacToeGame : NSObject
+@property (readonly) NSMutableArray *board;
 
 @property (nonatomic, assign) NSUInteger xPlayerWinCount;
 @property (nonatomic, assign) NSUInteger oPlayerWinCount;
